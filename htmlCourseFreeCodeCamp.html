@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp2</title>
+    </head>
+    <body>
+        <main>
+            <h2>CatPhotoApp</h2>
+            <p>Click here to view more <a href="#" 
+            target="_blank">cat photos</a>.</p>
+            <a href="#" <img src="https://fcc.im/
+            fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+            <h3>Cat Lists</h3>
+            <div class="lists">
+                <p>Things cats <em>love</em>:</p>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>Laser Pointers</li>
+                    <li>Lasagna</li>
+                </ul>
+                <p>Things cats <strong>hate</strong>:</p>
+                <ol>
+                    <li>Flea treatment</li>
+                    <li>Thunder</li>
+                    <li> Other Cats</li>
+                </ol>
+        </div>
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label><br>
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked>Loving</label><br>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality">Lazy</label><br>
+                <label for="energetic"><input id="energetic" type="checkbox" name="energetic">Energetic</label><br>
+                <input type="text" placeholder="cat photo URL"required>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>No Copyright - IamthaIam.Org</small></p>
+        </footer>
+    </body>
+</html>
