@@ -5,11 +5,24 @@
     </head>
     <body>
         <main>
-            <h2>CatPhotoApp</h2>
+            <h2 id="changeColour">CatPhotoApp</h2>
             <p>Click here to view more <a href="#" 
             target="_blank">cat photos</a>.</p>
-            <a href="#" <img src="https://fcc.im/
-            fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+            <br>
+                <button>Display video</button>
+<div class="hidden">
+  <video>
+    <source
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+      type="video/webm" />
+    <p>
+      Your browser doesn't support HTML video. Here is a
+      <a href="rabbit320.mp4">link to the video</a> instead.
+    </p>
+  </video>
+  </div>
+            <a href="#"><img src="https://fcc.im/
+                fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
             <h3>Cat Lists</h3>
             <div class="lists">
                 <p>Things cats <em>love</em>:</p>
@@ -34,9 +47,15 @@
                 <input type="text" placeholder="cat photo URL"required>
                 <button type="submit">Submit</button>
             </form>
+            <input id="textBox" type="text" />
+            <div
+                id="output">
+            </div>
         </main>
         <footer>
             <p><small>No Copyright - IamthaIam.Org</small></p>
         </footer>
+        <script src="JS/main.js" type="text/javascript"></script>
+        
     </body>
 </html>
